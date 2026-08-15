@@ -1,4 +1,26 @@
 # Submission Notes
+## Test coverage
+
+Ran with `npm run coverage`:
+
+\`\`\`
+-----------------|---------|----------|---------|---------|-------------------
+File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------|---------|----------|---------|---------|-------------------
+All files        |   98.68 |    98.85 |   96.55 |   98.56 |                   
+ src             |   84.61 |       75 |      50 |   84.61 |                   
+  app.js         |   84.61 |       75 |      50 |   84.61 | 17-18             
+ src/routes      |     100 |      100 |     100 |     100 |                   
+  tasks.js       |     100 |      100 |     100 |     100 |                   
+ src/services    |     100 |      100 |     100 |     100 |                   
+  taskService.js |     100 |      100 |     100 |     100 |                   
+ src/utils       |     100 |      100 |     100 |     100 |                   
+  validators.js  |     100 |      100 |     100 |     100 |                   
+-----------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 3 passed, 3 total
+Tests:       74 passed, 74 total
+\`\`\`
 
 ## What I'd test next with more time
 
